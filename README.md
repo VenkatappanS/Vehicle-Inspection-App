@@ -1,12 +1,38 @@
-# React + Vite
+# Vehicle Inspection App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack MERN application for vehicle inspection reports, with:
+- Multi-step form UI
+- Microphone-based inputs
+- MongoDB data storage
+- AI-based report summary using Gemini API
+- PDF report download
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Setup Instructions
 
-## Expanding the ESLint configuration
+### 1. Clone the Repo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone https://github.com/VenkatappanS/Vehicle-Inspection-App.git
+cd Vehicle-Inspection-App
+
+### 2. Setup Frontend
+
+cd client
+npm install
+npm run dev
+
+### 3. Setup Backend
+
+cd ../server
+npm install
+node server.js
+
+### Future Work
+Role-based access (inspector, admin)
+
+Assigning tasks from admin dashboard
+
+Email notifications with reports
+
+Hosting on Vercel / Render
