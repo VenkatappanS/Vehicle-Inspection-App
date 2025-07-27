@@ -1,30 +1,33 @@
 # Vehicle Inspection App
+The Vehicle Inspection App is a full-stack MERN application designed to modernize and streamline vehicle inspection processes. It replaces manual paperwork with a digital, multi-step form, enabling efficient data capture via voice input. The app generates AI-summarized reports and allows PDF downloads, significantly improving accuracy and record-keeping for vehicle inspections.
+
+---
 
 ## Key Features
-Multi-Step Form Interface: Guides inspectors through a structured, intuitive process for comprehensive data collection.
+* Multi-Step Form Interface: Guides inspectors through a structured, intuitive process for comprehensive data collection.
 
-Microphone-Based Inputs: Enables hands-free data entry, improving speed and convenience during inspections.
+* Microphone-Based Inputs: Enables hands-free data entry, improving speed and convenience during inspections.
 
-MongoDB Integration: Securely stores all inspection data, providing a scalable and flexible database solution.
+* MongoDB Integration: Securely stores all inspection data, providing a scalable and flexible database solution.
 
-AI-Based Report Summarization (using Gemini API): Automatically generates concise and intelligent summaries of inspection reports, highlighting key findings.
+* AI-Based Report Summarization (using Gemini API): Automatically generates concise and intelligent summaries of inspection reports, highlighting key findings.
 
-PDF Report Generation: Allows users to easily download and share professional, standardized inspection reports.
+* PDF Report Generation: Allows users to easily download and share professional, standardized inspection reports.
 
 ---
 
 ## Technologies Used
-The application is built as a full-stack MERN (MongoDB, Express.js, React, Node.js) application:
+* The application is built as a full-stack MERN (MongoDB, Express.js, React, Node.js) application:
 
-MongoDB: NoSQL database for flexible data storage.
+* MongoDB: NoSQL database for flexible data storage.
 
-Express.js: Web application framework for Node.js, forming the backend API.
+* Express.js: Web application framework for Node.js, forming the backend API.
 
-React: JavaScript library for building interactive user interfaces.
+* React: JavaScript library for building interactive user interfaces.
 
-Node.js: JavaScript runtime environment for server-side logic.
+* Node.js: JavaScript runtime environment for server-side logic.
 
-Gemini API: For AI-powered report summarization.
+* Gemini API: For AI-powered report summarization.
 
 ---
 
@@ -50,10 +53,10 @@ node server.js
 ---
 
 ### Future Work
-Role-Based Access Control: Implement distinct roles for inspectors and administrators with varying permissions.
+* Role-Based Access Control: Implement distinct roles for inspectors and administrators with varying permissions.
 
-Task Assignment: Develop an admin dashboard to assign inspection tasks to specific inspectors.
+* Task Assignment: Develop an admin dashboard to assign inspection tasks to specific inspectors.
 
-Email Notifications: Integrate functionality to send email notifications with attached reports.
+* Email Notifications: Integrate functionality to send email notifications with attached reports.
 
-Application Hosting: Deploy the application on cloud platforms such as Vercel or Render for broader accessibility.
+* Application Hosting: Deploy the application on cloud platforms such as Vercel or Render for broader accessibility.
