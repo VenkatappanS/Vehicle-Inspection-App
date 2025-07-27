@@ -1,0 +1,45 @@
+.report-background {
+  padding: 20px;
+  background-color: #f8f9fa;
+  background-image: url("/report-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  margin-top: 0;
+}
+
+.report-container {
+  width: 1300px;
+  position: absolute;
+  top: 13%;
+  left: 7.5%;
+}
+
+.report-status {
+  font-weight: bold;
+  font-size: large;
+  width: 300px;
+  text-align: right;
+}
+
+.badge-completed {
+  background-color: #28a745;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+}
+
+.badge-in-progress {
+  background-color: #ffc107;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+}
+
+.badge-pending {
+  background-color: #dc3545;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+}
