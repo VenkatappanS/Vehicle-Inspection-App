@@ -1,11 +1,30 @@
 # Vehicle Inspection App
 
-A full-stack MERN application for vehicle inspection reports, with:
-- Multi-step form UI
-- Microphone-based inputs
-- MongoDB data storage
-- AI-based report summary using Gemini API
-- PDF report download
+## Key Features
+Multi-Step Form Interface: Guides inspectors through a structured, intuitive process for comprehensive data collection.
+
+Microphone-Based Inputs: Enables hands-free data entry, improving speed and convenience during inspections.
+
+MongoDB Integration: Securely stores all inspection data, providing a scalable and flexible database solution.
+
+AI-Based Report Summarization (using Gemini API): Automatically generates concise and intelligent summaries of inspection reports, highlighting key findings.
+
+PDF Report Generation: Allows users to easily download and share professional, standardized inspection reports.
+
+---
+
+## Technologies Used
+The application is built as a full-stack MERN (MongoDB, Express.js, React, Node.js) application:
+
+MongoDB: NoSQL database for flexible data storage.
+
+Express.js: Web application framework for Node.js, forming the backend API.
+
+React: JavaScript library for building interactive user interfaces.
+
+Node.js: JavaScript runtime environment for server-side logic.
+
+Gemini API: For AI-powered report summarization.
 
 ---
 
@@ -28,11 +47,13 @@ cd ../server
 npm install
 node server.js
 
+---
+
 ### Future Work
-Role-based access (inspector, admin)
+Role-Based Access Control: Implement distinct roles for inspectors and administrators with varying permissions.
 
-Assigning tasks from admin dashboard
+Task Assignment: Develop an admin dashboard to assign inspection tasks to specific inspectors.
 
-Email notifications with reports
+Email Notifications: Integrate functionality to send email notifications with attached reports.
 
-Hosting on Vercel / Render
+Application Hosting: Deploy the application on cloud platforms such as Vercel or Render for broader accessibility.
